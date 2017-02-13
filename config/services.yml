@@ -1,0 +1,7 @@
+services:
+    rts.activebirthdays.listener:
+        class: rts\activebirthdays\event\main_listener
+        arguments:
+            - '@config'
+        tags:
+            - { name: event.listener }

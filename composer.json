@@ -1,0 +1,27 @@
+{
+    "name": "rts/activebirthdays",
+    "type": "phpbb-extension",
+    "description": "Display birthdays of active users only",
+    "homepage": "",
+    "version": "1.0.0",
+    "time": "2017-01-13",
+     "keywords": ["phpbb", "extension", "rts software", "birthdays"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jakester34",
+            "email": "",
+            "homepage": "",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Active User Birthdays",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}

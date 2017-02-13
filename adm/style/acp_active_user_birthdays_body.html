@@ -1,0 +1,23 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_SETTINGS}</h1>
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+	<fieldset>
+		<dl>
+      <dt><label for="active_user_birthdays">{L_ACP_ACTIVE_USER_BIRTHDAYS}</label><br>
+        <span>{L_ACP_ACTIVE_USER_BIRTHDAYS_EXPLAIN}</span>
+      </dt>
+      <dd><input type="textbox" class="textbox" name="active_user_birthdays" value="{ACTIVE_USER_BIRTHDAYS}"/>
+		</dl>
+
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+
+<!-- INCLUDE overall_footer.html -->

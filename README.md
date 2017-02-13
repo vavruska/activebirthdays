@@ -1,2 +1,12 @@
-# activebirthdays
-phpbb extension to only show birthdays of users who have visited the site recently. 
+# Active User Birthdays
+
+## Installation
+
+Copy the extension to phpBB/ext/rts/activebirthdays
+
+Go to "ACP" > "Customise" > "Extensions" and enable the "Active User Birthdays" extension.
+
+
+## License
+
+[GPLv2](license.txt)
